@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  wawi-db:
+    container_name: wawi-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    volumes:
+      - ..\Data:/tmp
+    ports:
+      - 4133:1433
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: P@ssw0rd
+    user: root
+    command: /tmp/container_setup.sh

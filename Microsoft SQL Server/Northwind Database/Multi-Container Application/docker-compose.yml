@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  northwind-db:
+    container_name: northwind-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    volumes:
+      - ..\Data:/tmp
+    ports:
+      - 4133:1433
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: P@ssw0rd
+    command: /tmp/container_setup.sh
