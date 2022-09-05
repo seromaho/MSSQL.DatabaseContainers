@@ -1,3 +1,4 @@
+# Move the database's primary data file to MSSQL Server's default data directory location
 for i in {1..50};
 do
     mv -f /tmp/zoo_db.mdf /var/opt/mssql/data/zoo_db.mdf
@@ -11,6 +12,7 @@ do
     fi
 done
 
+# Move the database's transaction log file to MSSQL Server's default log directory location
 for i in {1..50};
 do
     mv -f /tmp/zoo_db.ldf /var/opt/mssql/data/zoo_db.ldf
@@ -24,6 +26,7 @@ do
     fi
 done
 
+# Execute the "zoo_db.sql" script that restores the database
 for i in {1..50};
 do
     /opt/mssql-tools/bin/sqlcmd -U "SA" -P "P@ssw0rd" -l 30 -i "/tmp/zoo_db.sql"
