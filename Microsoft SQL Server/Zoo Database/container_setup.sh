@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # Start SQL Server, start the script to create/setup the DB:
 /tmp/zoo_db_setup.sh & /opt/mssql/bin/sqlservr
 
