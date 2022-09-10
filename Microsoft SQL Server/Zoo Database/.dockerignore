@@ -1,4 +1,5 @@
 .dockerignore
+assignments.md
 Dockerfile
 README.md
 zoo_db.ps1
