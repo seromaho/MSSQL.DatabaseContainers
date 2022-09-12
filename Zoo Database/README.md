@@ -6,7 +6,9 @@
 4. execute the contained PowerShell script (the `.ps1` file)
 
    The PowerShell script will build the `database image` from the `Dockerfile`, using `mcr.microsoft.com/mssql/server:2019-latest` as the base image.
+   
    The image name will be `mssql/zoo_db`.
+   
    The PowerShell script will create a writeable container layer over the database image and then start the new container.
    
 - access the database at `localhost:1433`; MSSQL login name: `SA`; MSSQL SA password: `P@ssw0rd`
