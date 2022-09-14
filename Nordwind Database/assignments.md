@@ -34,4 +34,4 @@ Erstellen Sie eine Skriptdatei, welche die folgenden Aufgaben erfüllt:
 1. Wiederholen Sie einige Schritte aus **Assignment 2** und **Assignment 3** und verwenden Sie `OUTPUT`. Welche virtuellen Tabellen können Sie in den unterschiedlichen Befehlen verwenden?
 2. Löschen Sie den Inhalt der Tabelle `ArtikelMerge`. Löschen Sie die Tabelle `ArtikelMerge`.
 3. Löschen Sie den Inhalt der Tabelle `ArtikelKopie` so, dass auch die Identitätswerte zurückgesetzt werden.
-4. Löschen Sie alle Tabellenkopien.
+4. Löschen Sie die Tabelle `ArtikelKopie`.
