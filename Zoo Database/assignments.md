@@ -70,4 +70,4 @@ Für den Futterplan gelten die folgenden Bedingungen:
 - Ein Tier soll jede geeignete Futterart **wöchentlich** erhalten.
    Die Reihenfolge soll aber variieren.
 Der Futterplan für jedes Tier soll in **Tabelle(n)** gespeichert werden.
-Es soll die **Kalenderwoche** und das **Kalenderahr** erkennbar sein.
+Es soll die **Kalenderwoche** und das **Kalenderjahr** erkennbar sein.
