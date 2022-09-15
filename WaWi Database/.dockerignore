@@ -1,0 +1,6 @@
+.dockerignore
+assignments.md
+Dockerfile
+README.md
+wawi_db.ps1
+#
