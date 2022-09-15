@@ -10,7 +10,7 @@ do
         break
     else
         /usr/bin/echo "TRY: move zoo_db.mdf"
-        sleep 1
+        /usr/bin/sleep 1
     fi
 done
 
@@ -24,7 +24,7 @@ do
         break
     else
         /usr/bin/echo "TRY: move zoo_db.ldf"
-        sleep 1
+        /usr/bin/sleep 1
     fi
 done
 
@@ -38,6 +38,6 @@ do
         break
     else
         /usr/bin/echo "TRY: create database zoo_db"
-        sleep 1
+        /usr/bin/sleep 1
     fi
 done
