@@ -1,6 +1,6 @@
 # SQL Training Assignments
 
-Erstellen Sie eine Skriptdatei, welche die folgenden Aufgaben erfüllt:
+Erstellen Sie ein SQL-Skript das die folgenden Aufgaben erfüllt:
 
 ## First Assignment
 1. Diese Aufgabe bezieht sich auf die Tabelle `Kategorien`.

@@ -1,6 +1,6 @@
 # SQL Training Assignments
 
-Erstellen Sie eine Skriptdatei, welche die folgenden Fragen beantwortet:
+Erstellen Sie ein SQL-Skript das die folgenden Fragen beantwortet:
 
 ## First Assignment
 1. Wie viele Tiere gibt es?
