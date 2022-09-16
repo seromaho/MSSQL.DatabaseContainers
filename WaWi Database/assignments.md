@@ -35,3 +35,36 @@ Erstellen Sie `SELECT`-Statements für die folgenden Aufgaben. Wählen Sie aus, 
 12. Zeigen Sie alle Artikel an, deren Bezeichnung aus **sechs Zeichen** besteht.
 13. Zeigen Sie alle Artikel an, in deren Bezeichnung das **vorletzte Zeichen** eine **Ziffer** ist.
 14. Zeigen Sie alle Artikel an, in deren Bezeichnung eine **zweistellige Zahl** enthalten ist.
+
+## Fourth Assignment
+Die folgenden Aufgaben beziehen sich auf die Tabelle `Artikel` in der `WaWi`-Datenbank.
+Verwenden Sie jeweils `Aggregatfunktionen` um die folgenden Aufgaben zu lösen:
+1. Wie teuer ist der **billigste** und der **teuerste** Artikel *(Basis ist der Einkaufspreis)*?
+2. Ermitteln Sie den **Durchschnittspreis** aller Artikel.
+3. Wie hoch ist die **Anzahl** der bestellten Artikel?
+4. **Wie viele** Artikel haben einen **Umsatzsteuersatz** von **19%**?
+5. Wie viel kostet der **teuerste** Artikel der von den Lieferanten mit der Nummer **1001** bzw. **1130** geliefert wird?
+6. Bei **wie vielen** Artikeln ist die **Lieferzeit** unbekannt?
+
+## Fifth Assignment
+Die folgenden Aufgaben beziehen sich auf die Tabelle `Artikel` in der `WaWi`-Datenbank.
+Verwenden Sie jeweils `Aggregatfunktionen` und die `GROUP BY`-Klausel, um die folgenden Aufgaben zu lösen:
+1. Wie teuer ist in jeder Artikelgruppe der **billigste** und der **teuerste** Artikel?
+2. Ermitteln Sie den **Durchschnittspreis** der Artikel pro Kategorie.
+3. Ermitteln Sie den **Durchschnittspreis** der Artikel je Lieferant.
+4. Wie teuer ist der **teuerste** Artikel je Lieferant aus den Kategorien **GA** und **HW**?
+5. Ermitteln Sie, **wie viele** Artikel jeder Lieferant liefert.
+
+## Sixth Assignment
+Verwenden Sie jeweils `JOIN`s um die folgenden Aufgaben zu lösen:
+1. Zeigen Sie **Artikelbezeichnungen** mit deren **Lagermenge** an.
+2. Zeigen Sie alle **Artikel** mit deren **Artikelgruppe** an.
+3. Zeigen Sie alle **Artikelbezeichnungen** und deren **Lagernamen** an.
+4. Zeigen Sie alle **Artikelsets** an.
+5. In welchen **Lagern** sind **Computer** gelagert?
+6. Wie groß ist die Menge jedes Artikels aus der Warengruppe **Spielwaren**?
+7. Zeigen Sie nur die **Bezeichnungen** der Artikelsets und die jeweils enthaltenen **Artikel** an.
+8. Welche **Lieferanten** liefern **Computer**?
+9. In welchen Lagern gibt es Artikel des Lieferanten **Gardena AG**?
+10. Aus wie vielen Artikelgruppen liefert der Lieferant **Gardena AG** Artikel?
+11. Bei welchen **Lieferanten** müssen **Waren** nachbestellt werden *(Lagerbestand < Mindestbestand)*?
