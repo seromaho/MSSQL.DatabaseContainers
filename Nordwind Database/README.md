@@ -21,8 +21,8 @@
 
 # Docker Hub
 
-The database container image is also avaiable on [Docker Hub](https://hub.docker.com/r/seromaho/mssql_database_containers).
-- either run the following using PowerShell ..
+The database container image is also available on [Docker Hub](https://hub.docker.com/r/seromaho/mssql_database_containers).
+- either run the following using **PowerShell** ..
 ```powershell
 $containerName = "nordwind_db"
 $imageName = "mssql_database_containers"
@@ -36,7 +36,7 @@ docker pull "${namespace}/${imageName}:${containerName}"
 # Start the new container
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" -p "${hostPort}:1433" --name "${containerName}" -d "${namespace}/${imageName}:${containerName}"
 ```
-- .. or run the following using BASH:
+- .. or run the following using **BASH**:
 ```bash
 containerName="nordwind_db"
 imageName="mssql_database_containers"
