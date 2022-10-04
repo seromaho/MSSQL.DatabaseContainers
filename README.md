@@ -13,3 +13,14 @@
    
 - access the database at `localhost:1433`; MSSQL login name: `SA`; MSSQL SA password: `P@ssw0rd`
 5. complete the SQL training assignments found in the database's root directory (`assignments.md`)
+
+# Notes
+
+- should you not have `PowerShell` installed on your local machine, you can either get it [here](https://learn.microsoft.com/en-us/powershell/), or ..
+- .. execute the BASH script (`<database name>.sh`) instead of the PowerShell script (`<database name>.ps1`)
+
+# Credits
+
+- container images by [seromaho](https://github.com/seromaho)
+- databases by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/)
+- SQL training assignments by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/), modified by [seromaho](https://github.com/seromaho)

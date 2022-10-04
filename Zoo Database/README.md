@@ -13,3 +13,14 @@
    
 - access the database at `localhost:1433`; MSSQL login name: `SA`; MSSQL SA password: `P@ssw0rd`
 5. complete the SQL training assignments found in the database's root directory (`assignments.md`)
+
+# Notes
+
+- should you not have `PowerShell` installed on your local machine, you can either get it [here](https://learn.microsoft.com/en-us/powershell/), or ..
+- .. execute the BASH script (`zoo_db.sh`) instead of the PowerShell script (`zoo_db.ps1`)
+
+# Credits
+
+- container image by [seromaho](https://github.com/seromaho)
+- database by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/)
+- SQL training assignments by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/), modified by [seromaho](https://github.com/seromaho)
