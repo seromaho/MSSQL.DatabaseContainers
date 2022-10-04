@@ -50,6 +50,7 @@ docker pull "${namespace}/${imageName}:${containerName}"
 # Start the new container
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" -p "${hostPort}:1433" --name "${containerName}" -d "${namespace}/${imageName}:${containerName}"
 ```
+- the image name is `seromaho/mssql_database_containers:<database name>`
 - access the database at `localhost:1433`; MSSQL login name: `SA`; MSSQL SA password: `P@ssw0rd`
 - complete the SQL training assignments found in the database's root directory (`assignments.md`)
 
