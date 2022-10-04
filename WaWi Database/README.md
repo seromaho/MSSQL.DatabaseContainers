@@ -17,7 +17,7 @@
 # Notes
 
 - should you not have `PowerShell` installed on your local machine, you can either get it [here](https://learn.microsoft.com/en-us/powershell/), or ..
-- .. execute the BASH script (`wawi_db.sh`) instead of the PowerShell script (`wawi_db.ps1`)
+- .. execute the **BASH** script (`wawi_db.sh`) instead of the PowerShell script (`wawi_db.ps1`)
 
 # Docker Hub
 
