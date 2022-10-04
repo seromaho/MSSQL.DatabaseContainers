@@ -22,5 +22,5 @@
 # Credits
 
 - container image by [seromaho](https://github.com/seromaho)
-- database by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/)
+- database by [Microsoft](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs), modified by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/)
 - SQL training assignments by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/), modified by [seromaho](https://github.com/seromaho)

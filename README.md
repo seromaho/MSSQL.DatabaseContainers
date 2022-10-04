@@ -22,5 +22,5 @@
 # Credits
 
 - container images by [seromaho](https://github.com/seromaho)
-- databases by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/)
+- databases by [Microsoft](https://github.com/microsoft/sql-server-samples) and [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/)
 - SQL training assignments by [IT-Akademie Dr. Heuer GmbH](https://drheuer.de/), modified by [seromaho](https://github.com/seromaho)
