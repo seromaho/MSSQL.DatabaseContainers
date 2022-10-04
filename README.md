@@ -22,6 +22,9 @@
 # Docker Hub
 
 The database container images are also available on [Docker Hub](https://hub.docker.com/r/seromaho/mssql_database_containers).
+
+   In the **Docker Hub** repository, each database is represented by an `image tag` (*tag name* == *database name*).
+
 - either run the following using **PowerShell** ..
 ```powershell
 $containerName = "<INSERT DATABASE NAME HERE>"
